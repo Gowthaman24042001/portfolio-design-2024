@@ -1,0 +1,264 @@
+@media only screen and (max-width: 600px) {
+    
+    h1 {
+        font-size: 35px;
+      }
+      h2 {
+        font-size: 30px;
+      }
+      h3 {
+        font-size: 25px;
+      }
+      h4 {
+        font-size: 20px;
+      }
+      h5 {
+        font-size: 18px;
+      }
+      h6 {
+        font-size: 16px;
+      }
+
+      .main-hero-section {
+        width: 100%;
+        display: block;
+      }
+      .hero-section {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        padding: 30px 10px;
+        position: relative;
+        /* border: 2px solid white; */
+      }
+      .hero-section-img {
+        width: 100%;
+        align-items: center;
+      }
+      .hero-section-img img {
+        width: 70%;
+        border-radius: 500px;
+        border: 50px solid var(--secondary-color);
+        transition: all 0.5s linear;
+        text-align: center;
+        margin-left:80px;
+      }
+      .elips-img {
+        position: absolute;
+        top: 40px;
+        right: 45px;
+        width: 42%;
+      }
+      .hero-section h3{
+        font-size: 30px;
+        padding-top: 20px;
+      }
+      .hero-section p {
+        margin-right: 0;
+        padding-top: 20px;
+      }
+
+      /** About us section **/
+      .about-us-main-section {
+        width: 100%;
+        padding: 40px 15px;
+        display: block;
+      }
+      .abt-cont-main-left-side {
+        width: 100%;
+      }
+      .about-us-cont {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+      }
+      .abt-cont-main-right-side {
+        width: 100%;
+        padding-top: 100px;
+        padding-left: 0;
+        text-align: center;   
+      }
+      .abt-cont-main-right-side .abt-button {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 20px;
+      }
+      .my-skills-section {
+        width: 100%;
+        display: block;
+        padding: 20px 0;
+        gap: 20px;
+        /* border: 2px solid white; */
+      }
+      .my-skills-section .skills-columns {
+        width: 100%;
+        margin-top: 20px;
+      }
+
+      /** Enquiry section starts from here ***/
+
+.enquiry-section-main {
+    width: 100%;
+    padding: 40px 10px;
+    display: block;
+  }
+  .enquiry-image-section {
+    width: 100%;
+  }
+  .enquiry-image-section .gowthama-enq-img {
+    width: 230px;
+    transform: translateX(350px);
+  }
+  .enquiry-image-section .experience-skills {
+    /* height: 150px;
+    width: 200px; */
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px rgb(182, 182, 182);
+    text-align: center;
+    right: 280px;
+    bottom: 30px;
+    animation: icon-float 2s infinite ease-in;
+  }
+  .enquiry-image-section .skills-icons .skills-icon-1 {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+  }
+  .enquiry-image-section .skills-icons .skills-icon-2 {
+    position: absolute;
+    top: 150px;
+    left: 250px;
+  }
+  .enquiry-image-section .skills-icons .skills-icon-3 {
+    position: absolute;
+    top: 220px;
+    left: 300px;
+  }
+  .enquiry-image-section .skills-icons .skills-icon-4 {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+  }
+  .enquiry-image-section .skills-icons .skills-icon-5 {
+    position: absolute;
+    top: 30px;
+    left: 250px;
+  }
+  .enquiry-image-section .skills-icons .skills-icon-6 {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+  }
+  .enquiry-image-section .skills-icons .skills-icon-7 {
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    /* right: 200px; */
+  }
+
+  /**** Enquiry section content column ****/
+
+  .enquiry-section-main h2 {
+    font-size: 35px;
+    padding: 10px 0;
+  }
+.enquiry-sec-cont {
+  width: 100%;
+  padding: 100px 15px 40px 15px;
+}
+
+
+/** My roject section slider CSS */ /******* very important slider */
+
+/* slider heading section */
+
+.My-project-section {
+  padding: 20px 20px 50px 20px;
+  text-align: center;
+}
+.My-project-section p {
+  padding: 20px;
+}
+.slide {
+  width: 100%; /* 3 images per slide */
+}
+
+/** My skills sections starts from here  **/
+
+.main-skills-section {
+  padding: 30px 15px;
+}
+.main-skills-heading p {
+  padding: 0px;
+}
+.my-ecpert-secion {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  padding: 40px 0;
+}
+
+/** Contact us sections starts from here **/
+
+.contact-us-section {
+  padding: 40px;
+}
+.contact-us-section p {
+  margin: 0px;
+}
+.contact-sec {
+  width: 100%;
+}
+.form-submit input {
+  height: 50px;
+}
+
+/** Footer section starts from here **/
+
+footer {
+  width: 100%;
+  padding: 60px 0;
+}
+.footer-section {
+  width: 100%;
+  margin: auto;
+}
+.footer-section img {
+  width: 80%;
+  margin-left: 50px;
+}
+.call-to-action div:first-child{
+  width: 70%;
+}
+.call-to-action h1 {
+  font-size: 25px;
+}
+.call-to-action button {
+  margin-top: 0px;
+}
+
+/** Footer contact section **/
+
+.footer-cntct-sec /** Footer section contact content  starts from here **/
+{
+  display: block;
+  padding-left: 15px;
+}
+.footer_contnt-section{
+  width: 100%;
+  display: block;
+  padding-bottom: 25px;
+}
+.footer_contnt-section .footer-menu{
+  margin-left: 0px;
+}
+#footer-menu{
+  padding-left: 0px;
+}
+
+}
